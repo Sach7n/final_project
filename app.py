@@ -64,7 +64,7 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(func=data_load, trigger="interval", hours=24)
 scheduler.start()
 
-@app.route('/')
+@app.route('/homepage')
 def homepage():
     London = r1.json()
     date1=London['forecast']['forecastday']
