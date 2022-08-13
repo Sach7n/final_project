@@ -3,7 +3,7 @@ certifi==2021.10.8
 click==7.1.2
 Flask==1.1.4
 Jinja2==2.11.2
-MarkupSafe==2.1.1
+MarkupSafe==1.1.1
 numpy==1.23.1
 pandas==1.4.3
 pymongo==4.2.0
