@@ -59,9 +59,9 @@ def data_load():
 
 data_load()
 
-scheduler = BackgroundScheduler()
-scheduler.add_job(func=data_load, trigger="interval", hours=24)
-scheduler.start()
+#scheduler = BackgroundScheduler()
+#scheduler.add_job(func=data_load, trigger="interval", hours=24)
+#scheduler.start()
 
 @app.route('/')
 def homepage():
