@@ -2,7 +2,6 @@ import requests
 import atexit 
 from apscheduler.schedulers.background import BackgroundScheduler
 from pymongo import MongoClient
-import configparser
 from flask import Flask, render_template, request
 import time
 
